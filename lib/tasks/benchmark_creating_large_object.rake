@@ -15,5 +15,5 @@ task benchmark_serialize: :environment do
     end
   end
 
-  puts "Average time to create object with unserialized hash of 1,000 keys: #{realtime/num_times.to_f}"
+  puts "Average time to create object with serialized hash of 1,000 keys: #{realtime/num_times.to_f}"
 end
